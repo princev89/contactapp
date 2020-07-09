@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contactlist">
+        <ul id="mainlist">
+            <li id="list">
+                <h1 id="name"></h1>
+                <p id="phone"></p>
+            </li>
+        </ul>
+    </div>
+</body>
+<script>
+    var mainlist = document.getElementById('mainlist');
+    var list = document.getElementById('list');
+    var user = document.getElementById('name');
+    var phone = document.getElementById('phone');
+
+    user.innerHTML = "hellow world";
+    phone.innerHTML = "8423621501";
+    mainlist.appendChild(list);
+
+</script>
+</html>
+

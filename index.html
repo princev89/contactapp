@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>PhoneBook</title>
+</head>
+<body>
+
+    <main>
+        <div class="search">
+            <input type="text" placeholder="Search Contacts">
+            <i class="fa fa-ellipsis-v" aria-hidden="true" id="newcontact"></i>
+        </div>
+
+        <div id="contactlist">
+        
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="add-contact">      
+            <div class="addpeople">
+                <input type="text" id="name" placeholder="Enter Name Number" maxlength = "18">
+                <input type="text" id="phone" placeholder="Enter Phone Number" maxlength = "13">
+                <button type="button" id="btn">ADD</button>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+<script src="./app.js"></script>
+</html>
